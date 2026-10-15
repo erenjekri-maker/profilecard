@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Overpass", sans-serif;
+}
+
+body{
+  background: #e1e7ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 25px;
+  box-shadow: 2px 5px 10px #7d87ac;
+}
+
+.web-link{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.button-dec{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-con{
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  box-shadow: 1px 0px 4px #817f7f;
+}
+
+a{
+  text-decoration: none;
+  color: #103bc9;
+}
+
+.follow-con{
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #103bc9;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+.view-con{
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  color: #103bc9;
+  box-sizing: border-box;
+  border-radius: 24px;
+  border: 2px solid #103bc9;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  transform: translate(5px,5px);
+
+}
